@@ -13,6 +13,7 @@ from azure.ai.agents.models import AgentThreadCreationOptions, ThreadMessageOpti
 from azure.identity import DefaultAzureCredential
 
 # Import agent runners
+from router_agent import classify_intent
 from coverage_agent import run_coverage_agent
 from provider_finder_agent import run_provider_finder_agent
 from cost_estimator_agent import run_cost_estimator_agent
@@ -21,32 +22,6 @@ load_dotenv()
 
 AZURE_AI_PROJECT_ENDPOINT = os.getenv("AZURE_AI_PROJECT_ENDPOINT")
 ROUTER_AGENT_ID = os.getenv("ROUTER_AGENT_ID")
-
-
-def classify_intent(user_query: str) -> str:
-    """Use router agent to classify user intent."""
-    agents_client = AgentsClient(
-        endpoint=AZURE_AI_PROJECT_ENDPOINT,
-        credential=DefaultAzureCredential(),
-    )
-
-    with agents_client:
-        run = agents_client.create_thread_and_process_run(
-            agent_id=ROUTER_AGENT_ID,
-            thread=AgentThreadCreationOptions(
-                messages=[ThreadMessageOptions(role="user", content=user_query)]
-            ),
-        )
-
-        messages = list(agents_client.messages.list(thread_id=run.thread_id))
-        for msg in messages:
-            if msg.role == MessageRole.AGENT:
-                for item in msg.content:
-                    if isinstance(item, MessageTextContent):
-                        return item.text.value.strip().lower()
-
-    return "general"
-
 
 def extract_coverage_percent(coverage_response: str) -> str:
     """Extract coverage percentage from coverage agent response."""

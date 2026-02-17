@@ -44,7 +44,7 @@ def search_dental_plan(
         # Build vector query
         vector_query = VectorizedQuery(
             vector=query_vector,
-            k_nearest_neighbors=5,
+            nearest_neighbors_count=3,
             fields="embedding"
         )
 
@@ -102,7 +102,7 @@ def run_coverage_agent(user_query: str, plan_filter: str = None):
         agents_client.enable_auto_function_calls(functions)
 
         from azure.ai.agents.models import AgentThreadCreationOptions, ThreadMessageOptions
-
+        from azure.ai.agents.models import FunctionTool, MessageTextContent, MessageRole
         run = agents_client.create_thread_and_process_run(
             agent_id=agent_id,
             thread=AgentThreadCreationOptions(
@@ -110,14 +110,8 @@ def run_coverage_agent(user_query: str, plan_filter: str = None):
             )
         )
 
-        print(f"Run status: {run.status}")
-        print(f"Last error: {run.last_error}")
-        print(f"Thread ID: {run.thread_id}")
-
         messages = list(agents_client.messages.list(thread_id=run.thread_id))
-        for msg in messages:
-            print(f"Role: {msg.role}, Content: {msg.content}")
-
+       
         response_text = None
         for msg in messages:
             if msg.role == MessageRole.AGENT:

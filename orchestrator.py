@@ -57,40 +57,39 @@ def extract_coverage_percent(coverage_response: str) -> str:
         return matches[0]
     return "0"
 
-
 def run_orchestrator(user_query: str, plan_filter: str = None):
-    """Route query to the appropriate agent based on intent."""
+    """Route query to the appropriate agent(s) based on intent."""
     print(f"\nUser: {user_query}")
 
-    intent = classify_intent(user_query)
-    print(f"Intent: {intent}")
+    intent_raw = classify_intent(user_query)
+    intents = [i.strip() for i in intent_raw.split(",")]
+    print(f"Intent(s): {intents}")
 
-    if "coverage" in intent:
-        response = run_coverage_agent(user_query, plan_filter)
+    responses = []
 
-    elif "provider" in intent:
-        response = run_provider_finder_agent(user_query)
+    if any("coverage" in i for i in intents):
+        responses.append(run_coverage_agent(user_query, plan_filter))
 
-    elif "cost" in intent:
-        # Step 1: Ask Coverage Agent for coverage %
+    if any("provider" in i for i in intents):
+        responses.append(run_provider_finder_agent(user_query))
+
+    if any("cost" in i for i in intents):
+        # Chain: Coverage Agent → Cost Estimator
         coverage_query = f"What is the coverage percentage for {user_query}? Reply with the specific percentage."
         print("  → Checking coverage first...")
         coverage_response = run_coverage_agent(coverage_query, plan_filter)
-
-        # Step 2: Extract % from coverage response
         coverage_percent = extract_coverage_percent(coverage_response or "")
         print(f"  → Coverage found: {coverage_percent}%")
 
-        # Step 3: Pass to Cost Estimator with coverage %
         enhanced_query = f"{user_query}\nCoverage percentage from plan: {coverage_percent}%"
-        response = run_cost_estimator_agent(enhanced_query, plan_filter)
+        responses.append(run_cost_estimator_agent(enhanced_query, plan_filter))
 
-    else:
-        response = "I can help with dental coverage questions, finding providers, or estimating costs. What would you like to know?"
+    if not responses:
+        responses.append("I can help with dental coverage questions, finding providers, or estimating costs. What would you like to know?")
 
-    print(f"\nResponse: {response}")
-    return response
-
+    combined = "\n\n---\n\n".join(responses)
+    print(f"\nResponse: {combined}")
+    return combined
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":

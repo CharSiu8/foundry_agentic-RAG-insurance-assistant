@@ -6,3 +6,4 @@ agent-framework==1.0.0b260128 --pre
 azure-storage-blob
 azure-search-documents
 pypdf
+langchain-text-splitters

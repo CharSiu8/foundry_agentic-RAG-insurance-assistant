@@ -1,0 +1,324 @@
+{
+  "source": "Delta Dental of Michigan Cost Estimator - Zip 49501 (Grand Rapids area)",
+  "disclaimer": "Costs shown are estimates without insurance. Actual costs vary by provider. For portfolio/demonstration purposes only.",
+  "procedures": [
+    {
+      "name": "Bleaching",
+      "category": "Cosmetic",
+      "cost_low": 898,
+      "cost_high": 898
+    },
+    {
+      "name": "Braces - Adolescent",
+      "category": "Orthodontics",
+      "cost_low": 6480,
+      "cost_high": 8425
+    },
+    {
+      "name": "Braces - Adult",
+      "category": "Orthodontics",
+      "cost_low": 6000,
+      "cost_high": 7075
+    },
+    {
+      "name": "Bridge - 3 Unit (Pontic/False Tooth)",
+      "category": "Major Restorative",
+      "cost_low": 1472,
+      "cost_high": 1950
+    },
+    {
+      "name": "Bridge - 3 Unit (Restorative Crowns)",
+      "category": "Major Restorative",
+      "cost_low": 2878,
+      "cost_high": 3380
+    },
+    {
+      "name": "Crown - Stainless Steel (Child)",
+      "category": "Major Restorative",
+      "cost_low": 406,
+      "cost_high": 419
+    },
+    {
+      "name": "Crown - Permanent",
+      "category": "Major Restorative",
+      "cost_low": 1432,
+      "cost_high": 1607
+    },
+    {
+      "name": "Full Mouth Debridement",
+      "category": "Periodontics",
+      "cost_low": 232,
+      "cost_high": 294
+    },
+    {
+      "name": "Cleaning - Regular (Adult)",
+      "category": "Preventive",
+      "cost_low": 117,
+      "cost_high": 136
+    },
+    {
+      "name": "Cleaning - Child",
+      "category": "Preventive",
+      "cost_low": 91,
+      "cost_high": 107
+    },
+    {
+      "name": "Exam - Emergency",
+      "category": "Diagnostic",
+      "cost_low": 108,
+      "cost_high": 180
+    },
+    {
+      "name": "Exam - Established Patient",
+      "category": "Diagnostic",
+      "cost_low": 68,
+      "cost_high": 80
+    },
+    {
+      "name": "Exam - New Patient",
+      "category": "Diagnostic",
+      "cost_low": 117,
+      "cost_high": 150
+    },
+    {
+      "name": "Denture - Lower Removable (Full)",
+      "category": "Prosthodontics",
+      "cost_low": 1700,
+      "cost_high": 2373
+    },
+    {
+      "name": "Denture - Upper Removable (Full)",
+      "category": "Prosthodontics",
+      "cost_low": 1747,
+      "cost_high": 2309
+    },
+    {
+      "name": "Partial Denture - Lower",
+      "category": "Prosthodontics",
+      "cost_low": 2016,
+      "cost_high": 2619
+    },
+    {
+      "name": "Partial Denture - Upper",
+      "category": "Prosthodontics",
+      "cost_low": 2051,
+      "cost_high": 2615
+    },
+    {
+      "name": "Pain Relief Treatment - Minor",
+      "category": "Emergency",
+      "cost_low": 166,
+      "cost_high": 214
+    },
+    {
+      "name": "Filling - Silver (1 Surface)",
+      "category": "Basic Restorative",
+      "cost_low": 187,
+      "cost_high": 210
+    },
+    {
+      "name": "Filling - Silver (2 Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 242,
+      "cost_high": 265
+    },
+    {
+      "name": "Filling - Silver (3 Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 274,
+      "cost_high": 322
+    },
+    {
+      "name": "Filling - Silver (4+ Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 275,
+      "cost_high": 395
+    },
+    {
+      "name": "Filling - White/Composite (Back, 1 Surface)",
+      "category": "Basic Restorative",
+      "cost_low": 230,
+      "cost_high": 272
+    },
+    {
+      "name": "Filling - White/Composite (Back, 2 Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 295,
+      "cost_high": 354
+    },
+    {
+      "name": "Filling - White/Composite (Back, 3 Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 366,
+      "cost_high": 420
+    },
+    {
+      "name": "Filling - White/Composite (Back, 4+ Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 443,
+      "cost_high": 488
+    },
+    {
+      "name": "Filling - White/Composite (Front, 1 Surface)",
+      "category": "Basic Restorative",
+      "cost_low": 211,
+      "cost_high": 257
+    },
+    {
+      "name": "Filling - White/Composite (Front, 2 Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 255,
+      "cost_high": 300
+    },
+    {
+      "name": "Filling - White/Composite (Front, 3 Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 317,
+      "cost_high": 380
+    },
+    {
+      "name": "Filling - White/Composite (Front, 4+ Surfaces)",
+      "category": "Basic Restorative",
+      "cost_low": 383,
+      "cost_high": 489
+    },
+    {
+      "name": "Fluoride - Non-Varnish",
+      "category": "Preventive",
+      "cost_low": 49,
+      "cost_high": 70
+    },
+    {
+      "name": "Fluoride - Varnish",
+      "category": "Preventive",
+      "cost_low": 56,
+      "cost_high": 67
+    },
+    {
+      "name": "General Anesthesia",
+      "category": "Anesthesia",
+      "cost_low": 1245,
+      "cost_high": 1867
+    },
+    {
+      "name": "Implant - Single Tooth Replacement",
+      "category": "Implants",
+      "cost_low": 2500,
+      "cost_high": 2891
+    },
+    {
+      "name": "Implant - Custom Abutment (includes placement)",
+      "category": "Implants",
+      "cost_low": 1100,
+      "cost_high": 1341
+    },
+    {
+      "name": "Mouthguard - Athletic (custom fabricated)",
+      "category": "Preventive",
+      "cost_low": 209,
+      "cost_high": 337
+    },
+    {
+      "name": "Occlusal Guard - Full Arch",
+      "category": "Preventive",
+      "cost_low": 728,
+      "cost_high": 918
+    },
+    {
+      "name": "Periodontal Cleaning",
+      "category": "Periodontics",
+      "cost_low": 185,
+      "cost_high": 212
+    },
+    {
+      "name": "Root Canal - Front Tooth",
+      "category": "Endodontics",
+      "cost_low": 1100,
+      "cost_high": 1300
+    },
+    {
+      "name": "Root Canal - Molar",
+      "category": "Endodontics",
+      "cost_low": 1500,
+      "cost_high": 1700
+    },
+    {
+      "name": "Root Canal - Premolar",
+      "category": "Endodontics",
+      "cost_low": 1348,
+      "cost_high": 1400
+    },
+    {
+      "name": "Sealant (per Tooth)",
+      "category": "Preventive",
+      "cost_low": 68,
+      "cost_high": 85
+    },
+    {
+      "name": "Tissue (Gum) Graft",
+      "category": "Periodontics",
+      "cost_low": 1475,
+      "cost_high": 1599
+    },
+    {
+      "name": "Extraction - Non-surgical",
+      "category": "Oral Surgery",
+      "cost_low": 233,
+      "cost_high": 293
+    },
+    {
+      "name": "Extraction - Surgical",
+      "category": "Oral Surgery",
+      "cost_low": 380,
+      "cost_high": 468
+    },
+    {
+      "name": "Extraction - Wisdom Tooth",
+      "category": "Oral Surgery",
+      "cost_low": 726,
+      "cost_high": 790
+    },
+    {
+      "name": "Veneer - Porcelain Laminate (Laboratory)",
+      "category": "Cosmetic",
+      "cost_low": 1600,
+      "cost_high": 1866
+    },
+    {
+      "name": "X-ray - Bitewing (2)",
+      "category": "Diagnostic",
+      "cost_low": 62,
+      "cost_high": 71
+    },
+    {
+      "name": "X-ray - Bitewing (4)",
+      "category": "Diagnostic",
+      "cost_low": 83,
+      "cost_high": 95
+    },
+    {
+      "name": "X-ray - Panoramic",
+      "category": "Diagnostic",
+      "cost_low": 162,
+      "cost_high": 195
+    },
+    {
+      "name": "X-ray - Periapical (First)",
+      "category": "Diagnostic",
+      "cost_low": 40,
+      "cost_high": 50
+    },
+    {
+      "name": "X-ray - Periapical (Each Additional)",
+      "category": "Diagnostic",
+      "cost_low": 36,
+      "cost_high": 40
+    },
+    {
+      "name": "X-ray - Full Mouth Series",
+      "category": "Diagnostic",
+      "cost_low": 171,
+      "cost_high": 204
+    }
+  ]
+}

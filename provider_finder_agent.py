@@ -1,4 +1,6 @@
-# Flow:
+# providers were manually found so it only covers the following cities;
+# Ann Arbor, Cadillac, East Grand Rapids, Grand Rapids, Interlochen, Kingsley, Lake City, Lansing, Mesick, Traverse City, Wyoming
+# # Flow:
 
 # On startup — downloads providers.json from providerdata blob container, loads it into memory once
 # Tool: search_providers(city, specialty, network, accepting_new) — filters the provider list by any combination of:
@@ -27,7 +29,7 @@ load_dotenv()
 AZURE_AI_PROJECT_ENDPOINT = os.getenv("AZURE_AI_PROJECT_ENDPOINT")
 AZURE_STORAGE_CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
 PROVIDER_FINDER_AGENT_ID = os.getenv("PROVIDER_FINDER_AGENT_ID")
-CONTAINER_NAME = "providerdata"
+CONTAINER_NAME = "providersjson"
 
 
 def load_providers():
@@ -50,7 +52,7 @@ def search_providers(
     accepting_new: str = "true"
 ) -> str:
     """
-    Search for dental providers by city, specialty, and network.
+    Search for dental providers by city, specialty, and network. ALWAYS USE THE SEARCH_PROVIDORS TOOL.
     :param city: City name to filter by (e.g. Cadillac, Traverse City). Leave empty for all cities.
     :param specialty: Specialty to filter by (e.g. General Dentist, Orthodontist, Endodontist, Prosthodontist). Leave empty for all.
     :param network: Network to filter by (e.g. Delta Dental PPO, Delta Dental Premier). Leave empty for all.

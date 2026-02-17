@@ -1,13 +1,12 @@
+# run_provider_finder_agent(user_query) from provider_finder_agent.py
+# run_cost_estimator_agent(user_query, plan_filter) from cost_estimator_agent.py
 # Calls router agent → gets intent (coverage, provider_search, cost_estimate, general)
 # Delegates to the matching agent
 # Includes a while loop so you can ask multiple questions
-# Expects these functions from files:
-
-# run_provider_finder_agent(user_query) from provider_finder_agent.py
-# run_cost_estimator_agent(user_query, plan_filter) from cost_estimator_agent.py
-
+# Cost queries chain: Coverage Agent (get %) → Cost Estimator (calculate out-of-pocket)
 
 import os
+import re
 from dotenv import load_dotenv
 from azure.ai.agents import AgentsClient
 from azure.ai.agents.models import AgentThreadCreationOptions, ThreadMessageOptions, MessageTextContent, MessageRole
@@ -49,6 +48,16 @@ def classify_intent(user_query: str) -> str:
     return "general"
 
 
+def extract_coverage_percent(coverage_response: str) -> str:
+    """Extract coverage percentage from coverage agent response."""
+    # Look for patterns like "80%", "50 percent", "covered at 80"
+    matches = re.findall(r'(\d{1,3})\s*%', coverage_response)
+    if matches:
+        # Return the first percentage found
+        return matches[0]
+    return "0"
+
+
 def run_orchestrator(user_query: str, plan_filter: str = None):
     """Route query to the appropriate agent based on intent."""
     print(f"\nUser: {user_query}")
@@ -58,10 +67,24 @@ def run_orchestrator(user_query: str, plan_filter: str = None):
 
     if "coverage" in intent:
         response = run_coverage_agent(user_query, plan_filter)
+
     elif "provider" in intent:
         response = run_provider_finder_agent(user_query)
+
     elif "cost" in intent:
-        response = run_cost_estimator_agent(user_query, plan_filter)
+        # Step 1: Ask Coverage Agent for coverage %
+        coverage_query = f"What is the coverage percentage for {user_query}? Reply with the specific percentage."
+        print("  → Checking coverage first...")
+        coverage_response = run_coverage_agent(coverage_query, plan_filter)
+
+        # Step 2: Extract % from coverage response
+        coverage_percent = extract_coverage_percent(coverage_response or "")
+        print(f"  → Coverage found: {coverage_percent}%")
+
+        # Step 3: Pass to Cost Estimator with coverage %
+        enhanced_query = f"{user_query}\nCoverage percentage from plan: {coverage_percent}%"
+        response = run_cost_estimator_agent(enhanced_query, plan_filter)
+
     else:
         response = "I can help with dental coverage questions, finding providers, or estimating costs. What would you like to know?"
 

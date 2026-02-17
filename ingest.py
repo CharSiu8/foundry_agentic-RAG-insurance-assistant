@@ -32,6 +32,11 @@ openai_client = AzureOpenAI(
     azure_endpoint=AZURE_OPENAI_ENDPOINT,
     api_version="2024-11-20"
 )
+embedding_client = AzureOpenAI(
+    api_key=os.getenv("AZURE_EMBEDDING_KEY"),
+    azure_endpoint=os.getenv("AZURE_EMBEDDING_ENDPOINT"),
+    api_version="2024-10-21"
+)
 # Connect to Blob Storage
 def download_blobs():
     blob_service_client = BlobServiceClient.from_connection_string(AZURE_STORAGE_CONNECTION_STRING)
@@ -66,7 +71,7 @@ def chunk_text(text, chunk_size=CHUNK_SIZE):
 
 # Embeddings 
 def get_embedding(text):
-    response = openai_client.embeddings.create(
+    response = embedding_client.embeddings.create(
         input=text,
         model=os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
     )

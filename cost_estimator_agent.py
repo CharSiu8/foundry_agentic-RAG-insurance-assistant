@@ -124,8 +124,8 @@ def run_cost_estimator_agent(user_query: str, plan_filter: str = None):
                         response_text = item.text.value
                         break
                 break
-
-        print(f"\nCost Estimator: {response_text}")
+# NOTED OUT PRINT STATEMENT SO ORCHESTRATOR DOES NOT DOUBLE OUTPUT
+        #print(f"\nCost Estimator: {response_text}")
         return response_text or "No response generated."
 
 

@@ -146,7 +146,8 @@ def run_provider_finder_agent(user_query: str):
                         break
                 break
 
-        print(f"\nProvider Finder: {response_text}")
+    #noted out print so orchestrator does not double output
+    # print(f"\nProvider Finder: {response_text}")
         return response_text or "No response generated."
 
 

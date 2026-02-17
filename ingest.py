@@ -28,13 +28,8 @@ CHUNK_SIZE = 500
 
 # Connect to Azure OpenAI for embeddings
 openai_client = AzureOpenAI(
-    api_key=OPENAI_API_KEY,
-    azure_endpoint=AZURE_OPENAI_ENDPOINT,
-    api_version="2024-11-20"
-)
-embedding_client = AzureOpenAI(
-    api_key=os.getenv("AZURE_EMBEDDING_KEY"),
-    azure_endpoint=os.getenv("AZURE_EMBEDDING_ENDPOINT"),
+    api_key=os.getenv("OPENAI_API_KEY"),
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
     api_version="2024-10-21"
 )
 # Connect to Blob Storage
@@ -71,8 +66,10 @@ def chunk_text(text, chunk_size=500, overlap=50):
     return splitter.split_text(text)
 
 # Embeddings 
+print("ENDPOINT:", os.getenv("AZURE_OPENAI_ENDPOINT"))
+print("EMBEDDING:", os.getenv("AZURE_EMBEDDING_DEPLOYMENT"))
 def get_embedding(text):
-    response = embedding_client.embeddings.create(
+    response = openai_client.embeddings.create(
         input=text,
         model=os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
     )

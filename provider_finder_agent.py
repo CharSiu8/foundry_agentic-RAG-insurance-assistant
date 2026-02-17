@@ -2,7 +2,7 @@
 # Ann Arbor, Cadillac, East Grand Rapids, Grand Rapids, Interlochen, Kingsley, Lake City, Lansing, Mesick, Traverse City, Wyoming
 # # Flow:
 
-# On startup — downloads providers.json from providerdata blob container, loads it into memory once
+# On startup — downloads 1stproviders (1).json from providerdata blob container, loads it into memory once
 # Tool: search_providers(city, specialty, network, accepting_new) — filters the provider list by any combination of:
 
 #City (e.g. "Cadillac", "Traverse City")
@@ -33,10 +33,10 @@ CONTAINER_NAME = "providersjson"
 
 
 def load_providers():
-    """Download providers.json from Azure Blob Storage."""
+    """Download 1stproviders (1).json from Azure Blob Storage."""
     blob_service_client = BlobServiceClient.from_connection_string(AZURE_STORAGE_CONNECTION_STRING)
     container = blob_service_client.get_container_client(CONTAINER_NAME)
-    blob_data = container.download_blob("providers.json").readall()
+    blob_data = container.download_blob("1stproviders (1).json").readall()
     data = json.loads(blob_data)
     return data["providers"]
 

@@ -1,0 +1,4921 @@
+{
+  "providers": [
+    {
+      "name": "J Hershey",
+      "specialty": "General Dentist",
+      "office_name": "MESICK DENTAL CENTER",
+      "address": "5055 N M 37, Mesick, MI 49668",
+      "city": "Mesick",
+      "state": "MI",
+      "zip": "49668",
+      "phone": "(231) 885-1711",
+      "email": "smile@mesickdentalcenter.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Bruce Cain",
+      "specialty": "General Dentist",
+      "office_name": "MESICK DENTAL CENTER",
+      "address": "5055 N M 37, Mesick, MI 49668",
+      "city": "Mesick",
+      "state": "MI",
+      "zip": "49668",
+      "phone": "(231) 885-1711",
+      "email": "smile@mesickdentalcenter.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Benjamin Seymour",
+      "specialty": "General Dentist",
+      "office_name": "NORTHERN QUALITY DENTAL",
+      "address": "504 Haynes St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-6531",
+      "email": "jamie@northernqualitydental.com",
+      "hours": "Standard Business Hours, Early Morning Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": false
+      },
+      "education": "Doctor of Dental Surgery - Indiana University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Andrew Rummel",
+      "specialty": "Orthodontist",
+      "office_name": "SMILE DOCTORS OF MICHIGAN PC",
+      "address": "300 N Lake St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-6597",
+      "email": "payorrelations@smiledoctors.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Ohio State University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": []
+    },
+    {
+      "name": "Sheng Wang",
+      "specialty": "Orthodontist",
+      "office_name": "SMILE DOCTORS OF MICHIGAN PC",
+      "address": "300 N Lake St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-6597",
+      "email": "payorrelations@smiledoctors.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Masters of Science in Dentistry - Sichuan University West China School",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": []
+    },
+    {
+      "name": "Jennifer Barrord",
+      "specialty": "Endodontist",
+      "office_name": "SHORELINE ENDODONTICS PC",
+      "address": "9116 E 13th St Ste C, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 468-3200",
+      "email": "contact@shoreline-endodontics.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": []
+    },
+    {
+      "name": "Christopher Allen",
+      "specialty": "Endodontist",
+      "office_name": "SHORELINE ENDODONTICS PC",
+      "address": "9116 E 13th St Ste C, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 468-3200",
+      "email": "contact@shoreline-endodontics.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": []
+    },
+    {
+      "name": "Lydia Cornejo Valse",
+      "specialty": "Prosthodontist",
+      "office_name": "LIFESMILES DENTISTRY",
+      "address": "300 Paluster St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-8281",
+      "email": "traci@lifesmilesdentistry.net",
+      "website": "www.lifesmilesdentistry.net",
+      "hours": "Standard Business Hours, Early Morning Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - University of Puerto Rico",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Brock Arms",
+      "specialty": "General Dentist",
+      "office_name": "LIFESMILES DENTISTRY",
+      "address": "300 Paluster St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-8281",
+      "email": "traci@lifesmilesdentistry.net",
+      "website": "www.lifesmilesdentistry.net",
+      "hours": "Standard Business Hours, Early Morning Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Billie Roberts-Ritzema",
+      "specialty": "General Dentist",
+      "office_name": "NICOLE DURANTE DMD PLLC",
+      "address": "8795 Pine Ridge Dr, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-5381",
+      "email": "nicoletotten@gmail.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": []
+    },
+    {
+      "name": "Nicole Durante",
+      "specialty": "General Dentist",
+      "office_name": "NICOLE DURANTE DMD PLLC",
+      "address": "8795 Pine Ridge Dr, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-5381",
+      "email": "nicoletotten@gmail.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Louisville",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": []
+    },
+    {
+      "name": "Christopher Ritzema",
+      "specialty": "General Dentist",
+      "office_name": "RITZEMA FAMILY DENTAL PC",
+      "address": "8795 Pine Ridge Dr, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-5381",
+      "email": "chris@ritzemafamilydental.com",
+      "hours": "Standard Business Hours, Evening Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Carson Shell",
+      "specialty": "General Dentist",
+      "office_name": "MY COMMUNITY DENTAL CENTERS INC",
+      "address": "521 Cobb St Ste A, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-7662",
+      "email": "credentialing@mydental.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Benjamin Fishman",
+      "specialty": "General Dentist",
+      "office_name": "MY COMMUNITY DENTAL CENTERS INC",
+      "address": "521 Cobb St Ste A, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-7662",
+      "email": "credentialing@mydental.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Ovidiu Brinzeiu",
+      "specialty": "General Dentist",
+      "office_name": "BRIGHT DENTAL HEALTH",
+      "address": "530 Cobb St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-8812",
+      "email": "brightdentalhealth4u@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Loma Linda University",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Romanian"
+      ],
+      "office_services": [
+        "Public transit available"
+      ]
+    },
+    {
+      "name": "Lauren Herba",
+      "specialty": "General Dentist",
+      "office_name": "FAMILY HEALTH CARE",
+      "address": "520 Cobb St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 876-6505",
+      "email": "dentalcredentialing@familyhealthcare.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Medicine - Midwestern University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Kimberly Perez",
+      "specialty": "General Dentist",
+      "office_name": "FAMILY HEALTH CARE",
+      "address": "520 Cobb St, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 876-6505",
+      "email": "dentalcredentialing@familyhealthcare.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Nadine Kobty-Hogg",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Ellie Wallace",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Cameron Dehaan",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Detroit Mercy Medical Center",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Kyle Hogg",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Timothy Reaume",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Maxwell Reaume",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Spencer Graham",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Lauren Rule",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - University of Florida",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Alexus Little",
+      "specialty": "General Dentist",
+      "office_name": "DENTAL HEALTH PROFESSIONALS PC",
+      "address": "7800 US Highway 131 S, Cadillac, MI 49601",
+      "city": "Cadillac",
+      "state": "MI",
+      "zip": "49601",
+      "phone": "(231) 775-9797",
+      "email": "dnemeth@dhpcadillac.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Tara Dohm",
+      "specialty": "General Dentist",
+      "office_name": "STAG DENTAL",
+      "address": "116 W Main St #518, Kingsley, MI 49649",
+      "city": "Kingsley",
+      "state": "MI",
+      "zip": "49649",
+      "phone": "(231) 642-2042",
+      "email": "office@stagdental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Midwestern University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Tiffany Sensoli",
+      "specialty": "General Dentist",
+      "office_name": "STAG DENTAL",
+      "address": "116 W Main St #518, Kingsley, MI 49649",
+      "city": "Kingsley",
+      "state": "MI",
+      "zip": "49649",
+      "phone": "(231) 642-2042",
+      "email": "office@stagdental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Tagalog"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "David Burke",
+      "specialty": "General Dentist",
+      "office_name": "STAG DENTAL",
+      "address": "116 W Main St #518, Kingsley, MI 49649",
+      "city": "Kingsley",
+      "state": "MI",
+      "zip": "49649",
+      "phone": "(231) 642-2042",
+      "email": "office@stagdental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Mitch Carpenter-Thompson",
+      "specialty": "General Dentist",
+      "office_name": "LAKE CITY FAMILY DENTISTRY",
+      "address": "213 S Canal St, Lake City, MI 49651",
+      "city": "Lake City",
+      "state": "MI",
+      "zip": "49651",
+      "phone": "(231) 839-2630",
+      "email": "lakecitytoothfairy@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Midwestern University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Nicholas Ostrander",
+      "specialty": "General Dentist",
+      "office_name": "NORTHERN SHORES DENTAL GROUP",
+      "address": "2120 J Maddy Pkwy, Interlochen, MI 49643",
+      "city": "Interlochen",
+      "state": "MI",
+      "zip": "49643",
+      "phone": "(231) 276-9051",
+      "email": "info@northernshoresdental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Trevor Kay",
+      "specialty": "General Dentist",
+      "office_name": "NORTHERN SHORES DENTAL GROUP",
+      "address": "2120 J Maddy Pkwy, Interlochen, MI 49643",
+      "city": "Interlochen",
+      "state": "MI",
+      "zip": "49643",
+      "phone": "(231) 276-9051",
+      "email": "info@northernshoresdental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Danielle Noble",
+      "specialty": "General Dentist",
+      "office_name": "NORTHERN SHORES DENTAL GROUP",
+      "address": "2120 J Maddy Pkwy, Interlochen, MI 49643",
+      "city": "Interlochen",
+      "state": "MI",
+      "zip": "49643",
+      "phone": "(231) 276-9051",
+      "email": "info@northernshoresdental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Vincent Mack",
+      "specialty": "General Dentist",
+      "office_name": "VINCENT P MACK DDS PC",
+      "address": "3347 S Airport Rd W Ste D, Traverse City, MI 49684",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49684",
+      "phone": "(231) 929-7737",
+      "email": "office@vmackdds.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Scott Nigl",
+      "specialty": "General Dentist",
+      "office_name": "ASPEN DENTAL",
+      "address": "3375 S Airport Rd W, Traverse City, MI 49684",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49684",
+      "phone": "(231) 486-0555",
+      "email": "customerservice@aspendental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Sadef Bandvar",
+      "specialty": "General Dentist",
+      "office_name": "ASPEN DENTAL",
+      "address": "3375 S Airport Rd W, Traverse City, MI 49684",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49684",
+      "phone": "(231) 486-0555",
+      "email": "customerservice@aspendental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Erika Coombs",
+      "specialty": "General Dentist",
+      "office_name": "ASPEN DENTAL",
+      "address": "3375 S Airport Rd W, Traverse City, MI 49684",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49684",
+      "phone": "(231) 486-0555",
+      "email": "customerservice@aspendental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Ohio State University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Tawfiq Alkilani",
+      "specialty": "General Dentist",
+      "office_name": "ASPEN DENTAL",
+      "address": "3375 S Airport Rd W, Traverse City, MI 49684",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49684",
+      "phone": "(231) 486-0555",
+      "email": "customerservice@aspendental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of the Pacific",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible",
+        "Teledentistry services available"
+      ]
+    },
+    {
+      "name": "Kristen Guptill",
+      "specialty": "General Dentist",
+      "office_name": "NORTHWEST MICHIGAN COMMUNITY HEALTH CHARLEVOIX CO",
+      "address": "2600 Lafranier Rd Ste B, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 932-7316",
+      "email": "dcnbilling@nwhealth.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ]
+    },
+    {
+      "name": "Yiting Lu",
+      "specialty": "General Dentist",
+      "office_name": "NORTHWEST MICHIGAN COMMUNITY HEALTH CHARLEVOIX CO",
+      "address": "2600 Lafranier Rd Ste B, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 932-7316",
+      "email": "dcnbilling@nwhealth.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ]
+    },
+    {
+      "name": "Mark Madion",
+      "specialty": "General Dentist",
+      "office_name": "NORTHWEST MICHIGAN COMMUNITY HEALTH CHARLEVOIX CO",
+      "address": "2600 Lafranier Rd Ste B, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 932-7316",
+      "email": "dcnbilling@nwhealth.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ]
+    },
+    {
+      "name": "Marc Abramson",
+      "specialty": "General Dentist",
+      "office_name": "DERKSEN DENTISTRY",
+      "address": "2815 Garfield Rd N, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 947-4380",
+      "email": "office@garfielddentalgroup.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Noor Al Mansi",
+      "specialty": "General Dentist",
+      "office_name": "DERKSEN DENTISTRY",
+      "address": "2815 Garfield Rd N, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 947-4380",
+      "email": "office@garfielddentalgroup.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - University of Alabama",
+      "gender": "Female",
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Christopher Allen",
+      "specialty": "Endodontist",
+      "office_name": "SHORELINE ENDODONTICS PC",
+      "address": "1087 Business Park Dr, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 947-6000",
+      "email": "contact@shoreline-endodontics.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Jeffrey Haag",
+      "specialty": "Endodontist",
+      "office_name": "SHORELINE ENDODONTICS PC",
+      "address": "1087 Business Park Dr, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 947-6000",
+      "email": "contact@shoreline-endodontics.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Jennifer Barrord",
+      "specialty": "Endodontist",
+      "office_name": "SHORELINE ENDODONTICS PC",
+      "address": "1087 Business Park Dr, Traverse City, MI 49686",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49686",
+      "phone": "(231) 947-6000",
+      "email": "contact@shoreline-endodontics.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "David Carlisle",
+      "specialty": "General Dentist",
+      "office_name": "UNITED WE SMILE",
+      "address": "4075 Copper Ridge Dr, Traverse City, MI 49684",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49684",
+      "phone": "(231) 844-4601",
+      "email": "smile@unitedwaynwmi.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of the Pacific",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Ronald Lints",
+      "specialty": "Orthodontist",
+      "office_name": "RONALD R LINTS",
+      "address": "4020 Copper Vw Ste 240, Traverse City, MI 49684",
+      "city": "Traverse City",
+      "state": "MI",
+      "zip": "49684",
+      "phone": "(231) 922-7210",
+      "email": "ron@drlints.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery, Master of Science - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ]
+    },
+    {
+      "name": "Rick Dayton",
+      "specialty": "General Dentist",
+      "office_name": "RICK R DAYTON DDS",
+      "address": "169 Louis Campau Promenade NW Ste 2A, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 458-2545",
+      "email": "drdaytondds@yahoo.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of South Carolina",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jerry Mulder",
+      "specialty": "General Dentist",
+      "office_name": "A LIFE OF SMILES",
+      "address": "515 Michigan St NE Ste 202, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 458-0631",
+      "email": "contact@alifeofsmiles.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Teledentistry services available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Allyson Mulder",
+      "specialty": "General Dentist",
+      "office_name": "A LIFE OF SMILES",
+      "address": "515 Michigan St NE Ste 202, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 458-0631",
+      "email": "contact@alifeofsmiles.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Medicine - Tufts University",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Teledentistry services available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Daniel O'Brien",
+      "specialty": "General Dentist",
+      "office_name": "OBRIEN & OBRIEN DDS PC",
+      "address": "1503 Coit Ave NE, Grand Rapids, MI 49505",
+      "city": "Grand Rapids",
+      "zip": "49505",
+      "phone": "(616) 361-2617",
+      "email": "michele@obriendental2.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Matthew Ellison",
+      "specialty": "General Dentist",
+      "office_name": "OBRIEN & OBRIEN DDS PC",
+      "address": "1503 Coit Ave NE, Grand Rapids, MI 49505",
+      "city": "Grand Rapids",
+      "zip": "49505",
+      "phone": "(616) 361-2617",
+      "email": "michele@obriendental2.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Blessing Chirenje",
+      "specialty": "General Dentist",
+      "office_name": "BRIDGE STREET FAMILY DENTAL PLLC",
+      "address": "2015 Bridge St NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 453-5448",
+      "email": "btchirenje@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Howard University",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Shona",
+        "Swahili"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jessica Massie",
+      "specialty": "Pediatric Dentist",
+      "office_name": "EASTOWN PEDIATRIC DENTISTRY",
+      "address": "1551 Wealthy St SE Ste A, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 330-1123",
+      "email": "office@eastownpd.com",
+      "hours": "Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible",
+        "Teledentistry services available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "John Bruinsma",
+      "specialty": "General Dentist",
+      "office_name": "GENUINE CARE DENTISTRY PLLC",
+      "address": "414 Plymouth Ave NE, Grand Rapids, MI 49505",
+      "city": "Grand Rapids",
+      "zip": "49505",
+      "phone": "(616) 655-1650",
+      "email": "hello@genuinecaredentistry.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Paul Brooks",
+      "specialty": "Oral Surgeon",
+      "office_name": "ORAL & MAXILLOFACIAL SURG ASSOC",
+      "address": "2140 Lake Michigan Dr NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 791-9600",
+      "email": "accountservices@omsaofwm.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "James Domin",
+      "specialty": "Oral Surgeon",
+      "office_name": "ORAL & MAXILLOFACIAL SURG ASSOC",
+      "address": "2140 Lake Michigan Dr NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 791-9600",
+      "email": "accountservices@omsaofwm.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Case Western Reserve University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Brant Erbentraut",
+      "specialty": "Oral Surgeon",
+      "office_name": "ORAL & MAXILLOFACIAL SURG ASSOC",
+      "address": "2140 Lake Michigan Dr NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 791-9600",
+      "email": "accountservices@omsaofwm.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Marquette University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Daniel Grode",
+      "specialty": "General Dentist",
+      "office_name": "GRAND CITY DENTISTRY",
+      "address": "1726 Leonard St NE, Grand Rapids, MI 49505",
+      "city": "Grand Rapids",
+      "zip": "49505",
+      "phone": "(616) 459-0478",
+      "email": "office@grandcitydentistry.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jerry Mulder",
+      "specialty": "General Dentist",
+      "office_name": "WESTSIDE DENTAL GR PC",
+      "address": "2005 Leonard St NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 453-5331",
+      "email": "westsidedentalgr@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Allyson Mulder",
+      "specialty": "General Dentist",
+      "office_name": "WESTSIDE DENTAL GR PC",
+      "address": "2005 Leonard St NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 453-5331",
+      "email": "westsidedentalgr@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": false
+      },
+      "education": "Doctor of Dental Medicine - Tufts University",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Sunil Desai",
+      "specialty": "General Dentist",
+      "office_name": "SUNIL DESAI DDS PLC",
+      "address": "1063 Four Mile Rd NW, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 785-3344",
+      "email": "dds@alpineridgedental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Thomas Burdo",
+      "specialty": "General Dentist",
+      "office_name": "GRAND RAPIDS DENTAL TEAM",
+      "address": "1100 4 Mile Rd NW, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6377",
+      "email": "grandrapids@sevadentalteam.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Marquette University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Elizabeth Christopherson",
+      "specialty": "Orthodontist",
+      "office_name": "ELIZABETH A CHRISTOPHERSON DDS",
+      "address": "2249 Wealthy St SE, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 734-0213",
+      "email": "smiles@orthogr.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Joshua Wansten",
+      "specialty": "General Dentist",
+      "office_name": "GASLIGHT VILLAGE FAMILY DENTISTRY",
+      "address": "2249 Wealthy St SE Ste 100, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 454-8228",
+      "email": "info@gaslightvillagefamilydentistry.com",
+      "hours": "Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Lora Wonderly",
+      "specialty": "General Dentist",
+      "office_name": "OROURKE AND WONDERLY DENTAL",
+      "address": "2430 Eastern Ave SE, Grand Rapids, MI 49507",
+      "city": "Grand Rapids",
+      "zip": "49507",
+      "phone": "(616) 455-7930",
+      "email": "info@wonderlyfamilydental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Medicine - Temple University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Craig Thorson",
+      "specialty": "General Dentist",
+      "office_name": "EGR DENTAL",
+      "address": "2140 Wealthy St SE #B, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 458-8901",
+      "email": "contact@egrdental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Leonard Bartoszewicz",
+      "specialty": "General Dentist",
+      "office_name": "BRANDON JANKOWSKI DDS PLLC",
+      "address": "2003 Burton St SE, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 245-9830",
+      "email": "ljbdds@sbcglobal.net",
+      "hours": "Evening Hours, Standard Business Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Northwestern University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Bradley Mccoy",
+      "specialty": "General Dentist",
+      "office_name": "BRADLEY R MCCOY DDS",
+      "address": "2000 Burton St SE Ste B, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 458-7171",
+      "email": "bmccoydds@yahoo.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Matthew Hudson",
+      "specialty": "General Dentist",
+      "office_name": "BELTLINE FAMILY DENTISTRY",
+      "address": "750 E Beltline Ave NE Ste 303, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 957-4700",
+      "email": "info@beltlinefamilydentistry.com",
+      "hours": "Standard Business Hours, Evening Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Brigette Jones",
+      "specialty": "Pediatric Dentist",
+      "office_name": "DAYDREAMS",
+      "address": "1471 E Beltline Ave NE Ste 101, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 215-1312",
+      "email": "info@daydreamspc.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Howard University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Aubrie Zuiderveen",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "751 Lafayette Ave NE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 742-9942",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - University of Florida",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Bryan Wazbinski",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "101 Sheldon Blvd SE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 776-2340",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Esther Jimenez",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "421 Fountain St NE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 776-5120",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Nicole Kooiker",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "421 Fountain St NE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 776-5120",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Anitha Doma",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "421 Fountain St NE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 776-5120",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - M S Ramaiah Dental College",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Cory Knape",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "421 Fountain St NE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 776-5120",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Indiana University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Patty Pekras",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "421 Fountain St NE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 776-5120",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Loyola College",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Donald Schwartzfisher",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "421 Fountain St NE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 776-5120",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Erin Nartker",
+      "specialty": "General Dentist",
+      "office_name": "A LIFE OF SMILES",
+      "address": "515 Michigan St NE Ste 202, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 458-0631",
+      "email": "contact@alifeofsmiles.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Teledentistry services available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Matthew Love",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "100 Cherry St SE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 965-8200",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Elise Boncher",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "100 Cherry St SE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 965-8200",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Ola Kobierzycki",
+      "specialty": "General Dentist",
+      "office_name": "MIDTOWNE DENTISTRY AND SLEEP",
+      "address": "555 Midtowne St SE Suite 104, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 784-9150",
+      "email": "jmay@midtownesmiles.com",
+      "hours": "Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Daniel Burton",
+      "specialty": "General Dentist",
+      "office_name": "MIDTOWNE SMILES PC",
+      "address": "555 Midtowne St NE Ste 104, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 784-9150",
+      "email": "jmay@midtownesmiles.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Marcos Cid",
+      "specialty": "General Dentist",
+      "office_name": "616 DENTAL STUDIO PLLC",
+      "address": "736 Stocking Ave NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 214-7865",
+      "email": "info@616dentalstudio.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - West Virginia University",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "French",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Mason Mcgillicuddy",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "550 Cherry St SE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 235-7289",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Zusha Chaudhary",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "550 Cherry St SE, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 235-7289",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Ohio State University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Sabrina Wadood",
+      "specialty": "General Dentist",
+      "office_name": "FULTON FAMILY DENTISTRY",
+      "address": "853 Fulton St E, Grand Rapids, MI 49503",
+      "city": "Grand Rapids",
+      "zip": "49503",
+      "phone": "(616) 458-1977",
+      "email": "fultonfamilydentistry@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Bradley Robinson",
+      "specialty": "Oral Surgeon",
+      "office_name": "ORAL & MAXILLOFACIAL SURG ASSOC",
+      "address": "2140 Lake Michigan Dr NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 791-9600",
+      "email": "accountservices@omsaofwm.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jia Ooi",
+      "specialty": "Oral Surgeon",
+      "office_name": "ORAL & MAXILLOFACIAL SURG ASSOC",
+      "address": "2140 Lake Michigan Dr NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 791-9600",
+      "email": "accountservices@omsaofwm.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Oregon Health and Science University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Erin Emmert",
+      "specialty": "General Dentist",
+      "office_name": "GRAND CITY DENTISTRY",
+      "address": "1726 Leonard St NE, Grand Rapids, MI 49505",
+      "city": "Grand Rapids",
+      "zip": "49505",
+      "phone": "(616) 459-0478",
+      "email": "office@grandcitydentistry.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Creighton University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Erin Nartker",
+      "specialty": "General Dentist",
+      "office_name": "WESTSIDE DENTAL GR PC",
+      "address": "2005 Leonard St NW, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 453-5331",
+      "email": "westsidedentalgr@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jakob Lee",
+      "specialty": "General Dentist",
+      "office_name": "LEGACY DENTAL ASSOCIATES",
+      "address": "2440 Gaynor Ave NW, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-8444",
+      "email": "legacydentalassociatesgr@gmail.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Mark Peterson",
+      "specialty": "General Dentist",
+      "office_name": "LEGACY DENTAL ASSOCIATES",
+      "address": "2440 Gaynor Ave NW, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-8444",
+      "email": "legacydentalassociatesgr@gmail.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Michael Miller",
+      "specialty": "General Dentist",
+      "office_name": "MICHAEL V MILLER DDS",
+      "address": "2501 Plainfield Ave NE Ste B, Grand Rapids, MI 49505",
+      "city": "Grand Rapids",
+      "zip": "49505",
+      "phone": "(616) 363-6612",
+      "email": "office@mikemillerdds.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Hendrik Van Holsbeeck",
+      "specialty": "General Dentist",
+      "office_name": "KENT FAMILY DENTAL CARE",
+      "address": "2515 Alpine Ave NW Ste A, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 364-9348",
+      "email": "info@kentfamilydental.com",
+      "website": "www.kentfamilydental.com",
+      "hours": "Evening Hours, Weekend Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "Dutch",
+        "English",
+        "French"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Phillip Annis",
+      "specialty": "General Dentist",
+      "office_name": "KENT FAMILY DENTAL CARE",
+      "address": "2515 Alpine Ave NW Ste A, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 364-9348",
+      "email": "info@kentfamilydental.com",
+      "website": "www.kentfamilydental.com",
+      "hours": "Evening Hours, Weekend Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Tufts University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Steven Feddick",
+      "specialty": "General Dentist",
+      "office_name": "KENT FAMILY DENTAL CARE",
+      "address": "2515 Alpine Ave NW Ste A, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 364-9348",
+      "email": "info@kentfamilydental.com",
+      "website": "www.kentfamilydental.com",
+      "hours": "Evening Hours, Weekend Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Nicole Miller",
+      "specialty": "General Dentist",
+      "office_name": "KENT FAMILY DENTAL CARE",
+      "address": "2515 Alpine Ave NW Ste A, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 364-9348",
+      "email": "info@kentfamilydental.com",
+      "website": "www.kentfamilydental.com",
+      "hours": "Evening Hours, Weekend Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Indiana University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Douglas Orzel",
+      "specialty": "Oral Surgeon",
+      "office_name": "ORAL & MAX SURG OF GRTR GRAND RAPIDS PLLC",
+      "address": "550 3 Mile Rd NW Ste C, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 785-1700",
+      "email": "info2@omsgrandrapids.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Daleen Hammoud",
+      "specialty": "General Dentist",
+      "office_name": "MIDWEST FAMILY DENTAL CARE - GRAND RAPIDS",
+      "address": "2020 Division Ave S, Grand Rapids, MI 49507",
+      "city": "Grand Rapids",
+      "zip": "49507",
+      "phone": "(616) 245-2767",
+      "email": "jessica@midwestfamilydentalcare.com",
+      "website": "www.midwestfamilydentalcare.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Suk Yun",
+      "specialty": "General Dentist",
+      "office_name": "NORTH POINTE FAMILY DENTAL PLLC",
+      "address": "680 3 Mile Rd NW Ste B, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 288-6134",
+      "email": "northpointe.familydental@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - New York University",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Korean"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Richard Elias",
+      "specialty": "General Dentist",
+      "office_name": "ELIAS DENTAL LAB INC",
+      "address": "535 Greenwood Ave SE Ste 100, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 458-2048",
+      "email": "smile@richardeliasdds.com",
+      "hours": "Standard Business Hours, Early Morning Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Northwestern University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Michael Kroeze",
+      "specialty": "General Dentist",
+      "office_name": "MY COMMUNITY DENTAL CENTERS INC",
+      "address": "890 3 Mile Rd NW Ste 4, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 438-6464",
+      "email": "credentialing@mydental.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Brockton Willey",
+      "specialty": "General Dentist",
+      "office_name": "THE DENTAL HOUSE",
+      "address": "660 Croswell Ave SE, East Grand Rapids, MI 49506",
+      "city": "East Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 266-2611",
+      "email": "dr.willey@thedentalhousegr.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Loma Linda University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Natasa Urukalo-Harshman",
+      "specialty": "General Dentist",
+      "office_name": "3 MILE FAMILY DENTISTRY PLLC",
+      "address": "976 3 Mile Rd NW Ste A, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-4038",
+      "email": "smiles@3miledds.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jason Sassack",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Sarah De Zwaan",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Teledentistry services available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Hannah Vermeer",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Andrew De Zwaan",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Emma King",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Alyssa Marsh",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Nicole Vince",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Midwestern University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Travis Kragt",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Brenden Carey",
+      "specialty": "General Dentist",
+      "office_name": "GREAT LAKES DENTAL CARE PLLC",
+      "address": "933 3 Mile Rd NW Ste 110, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6300",
+      "email": "lisav@greatlakesdentalcare.com",
+      "hours": "Standard Business Hours, Evening Hours, Early Morning Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Eman Salameh",
+      "specialty": "Orthodontist",
+      "office_name": "NW ORTHODONTICS PLLC",
+      "address": "933 3 Mile Rd NW Unit 102, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-5993",
+      "email": "emansalamehdds@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Maritza Salvo-Ale",
+      "specialty": "General Dentist",
+      "office_name": "AFFINITY DENTAL CARE",
+      "address": "2807 Lake Michigan Dr NW Ste 3, Grand Rapids, MI 49504",
+      "city": "Grand Rapids",
+      "zip": "49504",
+      "phone": "(616) 324-0050",
+      "email": "maritzasalvodds@gmail.com",
+      "hours": "Standard Business Hours, Evening Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Colorado",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Portuguese",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Robert Dame",
+      "specialty": "General Dentist",
+      "office_name": "NORTH PARK FAMILY DENTAL PLLC",
+      "address": "422 N Park St NE, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 361-7265",
+      "email": "info@npfamilydental.com",
+      "hours": "Standard Business Hours, Evening Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Nicholas Miller",
+      "specialty": "General Dentist",
+      "office_name": "ASPEN DENTAL",
+      "address": "3320 Alpine Ave NW, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 785-3100",
+      "email": "kelsey.koetsier@aspendental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Tufts University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible",
+        "Teledentistry services available"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Elizabeth Sanchez",
+      "specialty": "General Dentist",
+      "office_name": "LUXURY DENTAL SPA PLLC",
+      "address": "551 28th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 216-6161",
+      "email": "luxurydentalspami@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - New York University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Kevin Stevens",
+      "specialty": "General Dentist",
+      "office_name": "MARY BERNONA STEVENS DDS PLLC",
+      "address": "1172 Nixon Ave NW, Grand Rapids, MI 49534",
+      "city": "Grand Rapids",
+      "zip": "49534",
+      "phone": "(616) 453-0644",
+      "email": "stevenssmile@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Mary Stevens",
+      "specialty": "General Dentist",
+      "office_name": "MARY BERNONA STEVENS DDS PLLC",
+      "address": "1172 Nixon Ave NW, Grand Rapids, MI 49534",
+      "city": "Grand Rapids",
+      "zip": "49534",
+      "phone": "(616) 453-0644",
+      "email": "stevenssmile@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Todd Vander Meer",
+      "specialty": "General Dentist",
+      "office_name": "DE YOUNG DENTAL ASSOCIATES PLLC",
+      "address": "1869 Porter St SW, Wyoming, MI 49519",
+      "city": "Wyoming",
+      "zip": "49519",
+      "phone": "(616) 532-7601",
+      "email": "office@randydeyoungdds.com",
+      "hours": "Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Randall De Young",
+      "specialty": "General Dentist",
+      "office_name": "DE YOUNG DENTAL ASSOCIATES PLLC",
+      "address": "1869 Porter St SW, Wyoming, MI 49519",
+      "city": "Wyoming",
+      "zip": "49519",
+      "phone": "(616) 532-7601",
+      "email": "office@randydeyoungdds.com",
+      "hours": "Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Brandon Jankowski",
+      "specialty": "General Dentist",
+      "office_name": "BRANDON JANKOWSKI DDS PLLC",
+      "address": "2003 Burton St SE, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 245-9830",
+      "email": "ljbdds@sbcglobal.net",
+      "hours": "Evening Hours, Standard Business Hours, Weekend Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jonathan Kahn",
+      "specialty": "General Dentist",
+      "office_name": "BRANDON JANKOWSKI DDS PLLC",
+      "address": "2003 Burton St SE, Grand Rapids, MI 49506",
+      "city": "Grand Rapids",
+      "zip": "49506",
+      "phone": "(616) 245-9830",
+      "email": "ljbdds@sbcglobal.net",
+      "hours": "Evening Hours, Standard Business Hours, Weekend Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Western University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Cory Ball",
+      "specialty": "General Dentist",
+      "office_name": "DESTINY DENTAL OF WYOMING",
+      "address": "1124 28th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 530-9900",
+      "email": "destinycredentialing@prosmile.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Michael Schwer",
+      "specialty": "General Dentist",
+      "office_name": "DESTINY DENTAL OF WYOMING",
+      "address": "1124 28th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 530-9900",
+      "email": "destinycredentialing@prosmile.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Loma Linda University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Ali Leila",
+      "specialty": "General Dentist",
+      "office_name": "DESTINY DENTAL OF WYOMING",
+      "address": "1124 28th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 530-9900",
+      "email": "destinycredentialing@prosmile.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Case Western Reserve University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jenan Al-Hadidi",
+      "specialty": "General Dentist",
+      "office_name": "DESTINY DENTAL OF WYOMING",
+      "address": "1124 28th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 530-9900",
+      "email": "destinycredentialing@prosmile.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Midwestern University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Ramandeep Jhandi",
+      "specialty": "General Dentist",
+      "office_name": "DESTINY DENTAL OF WYOMING",
+      "address": "1124 28th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 530-9900",
+      "email": "destinycredentialing@prosmile.com",
+      "hours": "Evening Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Boston University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Sharon Burocchi",
+      "specialty": "General Dentist",
+      "office_name": "SHARON L BUROCCHI DDS PLLC",
+      "address": "2300 3 Mile Rd NE, Grand Rapids, MI 49505",
+      "city": "Grand Rapids",
+      "zip": "49505",
+      "phone": "(616) 365-8699",
+      "email": "slbmolar@aol.com",
+      "website": "sensational-smiles-today.com",
+      "hours": "Standard Business Hours, Evening Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Marquette University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Andrew Cybulski",
+      "specialty": "General Dentist",
+      "office_name": "GRAND RAPIDS DENTAL TEAM",
+      "address": "1100 4 Mile Rd NW, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 784-6377",
+      "email": "grandrapids@sevadentalteam.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Daniel Miller",
+      "specialty": "Pediatric Dentist",
+      "office_name": "DAYDREAMS",
+      "address": "1471 E Beltline Ave NE Ste 101, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 215-1312",
+      "email": "info@daydreamspc.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jennifer Luca",
+      "specialty": "Pediatric Dentist",
+      "office_name": "DAYDREAMS",
+      "address": "1471 E Beltline Ave NE Ste 101, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 215-1312",
+      "email": "info@daydreamspc.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - Harvard University",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Daniel Armstrong",
+      "specialty": "General Dentist",
+      "office_name": "EXALTA HEALTH",
+      "address": "2060 Division Ave S, Grand Rapids, MI 49507",
+      "city": "Grand Rapids",
+      "zip": "49507",
+      "phone": "(616) 475-8446",
+      "email": "snorcross@exaltahealth.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Bradley Vanhoose",
+      "specialty": "Oral Surgeon",
+      "office_name": "ORAL & MAX SURG OF GRTR GRAND RAPIDS PLLC",
+      "address": "550 3 Mile Rd NW Ste C, Grand Rapids, MI 49544",
+      "city": "Grand Rapids",
+      "zip": "49544",
+      "phone": "(616) 785-1700",
+      "email": "info2@omsgrandrapids.org",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Betsey Baumann-Smeenge",
+      "specialty": "Pediatric Dentist",
+      "office_name": "DAYDREAMS",
+      "address": "1471 E Beltline Ave NE Ste 101, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 215-1312",
+      "email": "info@daydreamspc.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Stephanie Brown",
+      "specialty": "Pediatric Dentist",
+      "office_name": "DAYDREAMS",
+      "address": "1471 E Beltline Ave NE Ste 101, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 215-1312",
+      "email": "info@daydreamspc.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Nicklaus Childrens Hospital",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "David Boone",
+      "specialty": "General Dentist",
+      "office_name": "SMILES BY DESIGN PLC",
+      "address": "1525 E Beltline Ave NE Ste 202, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 361-6161",
+      "email": "drboone@grsmiledoc.com",
+      "website": "www.grandrapidsdentists.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Indiana University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Brian Yared",
+      "specialty": "General Dentist",
+      "office_name": "CONTEMPORARY FAMILY DENTAL PLC",
+      "address": "2005 Breton Rd SE, Grand Rapids, MI 49546",
+      "city": "Grand Rapids",
+      "zip": "49546",
+      "phone": "(616) 726-1271",
+      "email": "contactus@contemporaryfamilydental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "David Aitken",
+      "specialty": "General Dentist",
+      "office_name": "CONTEMPORARY FAMILY DENTAL PLC",
+      "address": "2005 Breton Rd SE, Grand Rapids, MI 49546",
+      "city": "Grand Rapids",
+      "zip": "49546",
+      "phone": "(616) 726-1271",
+      "email": "contactus@contemporaryfamilydental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Swetha Madala",
+      "specialty": "General Dentist",
+      "office_name": "CONTEMPORARY FAMILY DENTAL PLC",
+      "address": "2005 Breton Rd SE, Grand Rapids, MI 49546",
+      "city": "Grand Rapids",
+      "zip": "49546",
+      "phone": "(616) 726-1271",
+      "email": "contactus@contemporaryfamilydental.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Illinois",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Alex Lahood",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "2929 Burlingame Ave SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 965-8333",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Briana Gonsar",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "2929 Burlingame Ave SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 965-8333",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Zachary Breen",
+      "specialty": "General Dentist",
+      "office_name": "BREEN FAMILY DENTISTRY PLLC",
+      "address": "2460 Burton St SE Ste 201, Grand Rapids, MI 49546",
+      "city": "Grand Rapids",
+      "zip": "49546",
+      "phone": "(616) 454-9091",
+      "email": "breenfamilydentistry@gmail.com",
+      "hours": "Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "David Boone",
+      "specialty": "General Dentist",
+      "office_name": "EASTERN DENTAL CONSULTING PLC",
+      "address": "2426 Burton St SE, Grand Rapids, MI 49546",
+      "city": "Grand Rapids",
+      "zip": "49546",
+      "phone": "(616) 974-0991",
+      "email": "drdboone@comcast.net",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true
+      },
+      "education": "Doctor of Dental Surgery - Indiana University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [],
+      "state": "MI"
+    },
+    {
+      "name": "Kyu Hyung Kang",
+      "specialty": "General Dentist",
+      "office_name": "WANKI KIM",
+      "address": "3297 Eagle Run Dr NE, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 447-7900",
+      "email": "pediatricdentistrymi@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - New York University",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Korean"
+      ],
+      "office_services": [
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Wanki Kim",
+      "specialty": "Pediatric Dentist",
+      "office_name": "WANKI KIM",
+      "address": "3297 Eagle Run Dr NE, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 447-7900",
+      "email": "pediatricdentistrymi@gmail.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - New York University",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Korean"
+      ],
+      "office_services": [
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Jonathan Eagle",
+      "specialty": "General Dentist",
+      "office_name": "DR JONATHAN D EAGLE DDS PC",
+      "address": "1750 Grand Ridge Ct NE Ste 202, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 361-9330",
+      "email": "contact@eagledds.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Rebecca Peterson",
+      "specialty": "Orthodontist",
+      "office_name": "REBECCA MONTICELLO DDS MS PC",
+      "address": "1750 Grand Ridge Ct NE Ste 300, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 364-1700",
+      "email": "info@grandridgeorthodontics.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": null,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Marquette School of Dentistry",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Ryan Keener",
+      "specialty": "General Dentist",
+      "office_name": "RYAN KEENER DDS PLLC",
+      "address": "3350 Grand Ridge Dr NE Ste 100, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 447-7800",
+      "email": "grandridgefamilydentistry@gmail.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Eugene Ro",
+      "specialty": "General Dentist",
+      "office_name": "BRENNAN FAMILY & COSMETIC DENTIS",
+      "address": "3152 Peregrine Dr NE Ste 200, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 447-3660",
+      "email": "smile@drbrennan.net",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - Midwestern University",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Robert Mull",
+      "specialty": "General Dentist",
+      "office_name": "STANDALE DENTAL",
+      "address": "3935 Lake Michigan Dr NW, Grand Rapids, MI 49534",
+      "city": "Grand Rapids",
+      "zip": "49534",
+      "phone": "(616) 453-7755",
+      "email": "info@standaledentaldds.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": false,
+        "Delta Dental Premier": false,
+        "Delta Dental Medicare Advantage": false
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Daphne Salazar",
+      "specialty": "Pediatric Dentist",
+      "office_name": "GROWING SMILES PEDIATRIC DENTISTRY PC",
+      "address": "2643 E Beltline Ave NE, Grand Rapids, MI 49525",
+      "city": "Grand Rapids",
+      "zip": "49525",
+      "phone": "(616) 988-9485",
+      "email": "info@growingsmilesgr.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - University of Kentucky",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Iliana Fingleton",
+      "specialty": "General Dentist",
+      "office_name": "FINGLETON FAMILY DENTISTRY",
+      "address": "600 36th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 532-9600",
+      "email": "ilianamireye@yahoo.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.5,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Michigan",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Tyler Oatmen",
+      "specialty": "General Dentist",
+      "office_name": "BRIANNA SZYMANSKI DDS PLLC",
+      "address": "630 36th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 538-4330",
+      "email": "jennah@craftdentistrygr.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Medicine - University of Florida",
+      "gender": "Male",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Brianna Szymanski",
+      "specialty": "General Dentist",
+      "office_name": "BRIANNA SZYMANSKI DDS PLLC",
+      "address": "630 36th St SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 538-4330",
+      "email": "jennah@craftdentistrygr.com",
+      "hours": "Evening Hours, Early Morning Hours, Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Female",
+      "languages": [
+        "English"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    },
+    {
+      "name": "Matthew Love",
+      "specialty": "General Dentist",
+      "office_name": "CHERRY STREET SERVICES INC",
+      "address": "2929 Burlingame Ave SW, Wyoming, MI 49509",
+      "city": "Wyoming",
+      "zip": "49509",
+      "phone": "(616) 965-8333",
+      "email": "billingmail@cherryhealth.com",
+      "hours": "Standard Business Hours",
+      "dentaqual_rating": 4.0,
+      "networks": [
+        "Delta Dental PPO",
+        "Delta Dental Premier",
+        "Delta Dental Medicare Advantage"
+      ],
+      "accepts_new_patients": {
+        "Delta Dental PPO": true,
+        "Delta Dental Premier": true,
+        "Delta Dental Medicare Advantage": true
+      },
+      "education": "Doctor of Dental Surgery - University of Detroit Mercy",
+      "gender": "Male",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "office_services": [
+        "Public transit available",
+        "Handicapped accessible"
+      ],
+      "state": "MI"
+    }
+  ]
+}

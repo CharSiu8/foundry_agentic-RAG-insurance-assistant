@@ -61,13 +61,14 @@ def parse_file(filename, data):
         return ""
     
 # Chunk text
-def chunk_text(text, chunk_size=CHUNK_SIZE):
-    words = text.split()
-    chunks = []
-    for i in range(0, len(words), chunk_size):
-        chunk = " ".join(words[i:i + chunk_size])
-        chunks.append(chunk)
-    return chunks
+def chunk_text(text, chunk_size=500, overlap=50):
+    from langchain_text_splitters import RecursiveCharacterTextSplitter
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=overlap,
+        separators=["\n\n", "\n", ".", "?", "!", " ", ""]
+    )
+    return splitter.split_text(text)
 
 # Embeddings 
 def get_embedding(text):
@@ -101,6 +102,11 @@ def create_index():
     )
 
     index = SearchIndex(name=INDEX_NAME, fields=fields, vector_search=vector_search)
+    try:
+        index_client.delete_index(INDEX_NAME)
+        print(f"Deleted existing index.")
+    except:
+        pass
     index_client.create_or_update_index(index)
     print(f"Index '{INDEX_NAME}' created/updated.")
 

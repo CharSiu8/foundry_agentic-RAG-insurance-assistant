@@ -24,7 +24,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 CONTAINER_NAME = "dentalplanpdfs"
 INDEX_NAME = "dental-plans"
-CHUNK_SIZE = 500
+CHUNK_SIZE = 1500
 
 # Connect to Azure OpenAI for embeddings
 openai_client = AzureOpenAI(
@@ -56,7 +56,7 @@ def parse_file(filename, data):
         return ""
     
 # Chunk text
-def chunk_text(text, chunk_size=500, overlap=50):
+def chunk_text(text, chunk_size=1500, overlap=200):
     from langchain_text_splitters import RecursiveCharacterTextSplitter
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,

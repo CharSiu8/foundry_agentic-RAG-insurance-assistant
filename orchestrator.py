@@ -129,9 +129,18 @@ if __name__ == "__main__":
     choice = input("\nEnter number (1-6): ").strip()
     plan_name, plan_filter = plan_options.get(choice, ("All Plans", None))
     print(f"Selected: {plan_name}")
-
+# Updated to be able to let users change plans without restarting the program
     while True:
-        query = input("\nAsk a question (or 'quit'): ").strip()
+        query = input("\nAsk a question (or 'quit' or 'change plan'): ").strip()
         if query.lower() in ("quit", "exit", "q"):
             break
+        if query.lower() in ("change plan", "change", "plan", "switch plan"):
+            print("\nSelect a plan:")
+            for key, (name, _) in plan_options.items():
+                print(f"  {key}. {name}")
+            choice = input("\nEnter number (1-6): ").strip()
+            plan_name, plan_filter = plan_options.get(choice, ("All Plans", None))
+            print(f"Selected: {plan_name}")
+            continue
+
         run_orchestrator(query, plan_filter)

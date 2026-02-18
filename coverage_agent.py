@@ -61,7 +61,7 @@ def search_dental_plan(
             search_text=query,
             vector_queries=[vector_query],
             filter=filter_expr,
-            top=5,
+            top=3,
             select=["text", "source"]
         )
 

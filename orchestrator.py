@@ -55,13 +55,31 @@ def extract_coverage_percent(coverage_response: str) -> dict:
 
 # query cleaner
 def make_coverage_query(user_query: str) -> str:
-    """Extract procedure keyword and build clean coverage query."""
-    procedures = ["cleaning", "crown", "root canal", "filling", "extraction", "wisdom tooth",
-                   "braces", "denture", "x-ray", "implant", "sealant", "veneer", "fluoride",
-                   "exam", "bridge", "orthodontic", "periodontic", "checkup"]
-    found = [p for p in procedures if p in user_query.lower()]
-    if found:
-        return f"What is my coverage percentage for {found[0]}? Include deductible and annual maximum."
+    """Extract procedure keyword and build clean coverage query using category name."""
+    procedure_to_category = {
+        "cleaning": "Diagnostic and Preventive Services",
+        "checkup": "Diagnostic and Preventive Services",
+        "exam": "Diagnostic and Preventive Services",
+        "fluoride": "Diagnostic and Preventive Services",
+        "filling": "Minor Restorative Services",
+        "crown": "Major Restorative Services",
+        "root canal": "Endodontic Services",
+        "wisdom tooth": "Oral Surgery Services",
+        "extraction": "Oral Surgery Services",
+        "braces": "Orthodontic Services",
+        "orthodontic": "Orthodontic Services",
+        "denture": "Prosthodontic Services",
+        "bridge": "Prosthodontic Services",
+        "implant": "Prosthodontic Services",
+        "x-ray": "Radiographs",
+        "gum disease": "Periodontic Services",
+        "sealant": "Sealants",
+        "veneer": "Veneers",
+    }
+    query_lower = user_query.lower()
+    for keyword, category in procedure_to_category.items():
+        if keyword in query_lower:
+            return f"What is the coverage percentage for {category}? Include deductible and annual maximum."
     return user_query
 
 def run_orchestrator(user_query: str, plan_filter: str = None):

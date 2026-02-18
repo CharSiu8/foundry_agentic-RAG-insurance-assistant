@@ -1,1 +1,9 @@
 .env
+venv/
+__pycache__/
+.env
+debugging_files/
+pdfstoextract/
+agent_testing_and_updates/
+data/
+*.pyc

@@ -27,6 +27,9 @@ User → Streamlit UI → Orchestrator → Router Agent (intent classification)
                                    ├→ Provider Finder Agent (JSON provider database)
                                    └→ Cost Estimator Agent (procedure cost database)
 ```
+## Orchestration
+
+hybrid orchestration pattern. If you had to pick one label, "router-based orchestration with concurrent execution and sequential chaining" is the most accurate.
 
 ### Foundry Agents
 

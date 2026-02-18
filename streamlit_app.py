@@ -68,7 +68,7 @@ with st.sidebar:
     }
 
     selected_plan = st.selectbox("Select a plan:", list(plan_options.keys()) + ["All Plans"])
-    plan_filter = plan_options[selected_plan, None]
+    plan_filter = plan_options.get(selected_plan, None)
 
 
     st.markdown("---")

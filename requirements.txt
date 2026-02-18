@@ -1,10 +1,11 @@
 azure-ai-projects
+azure-ai-agents
 azure-identity
+azure-search-documents
+azure-storage-blob
 openai
+pydantic
 python-dotenv
 agent-framework==1.0.0b260128 --pre
-azure-storage-blob
-azure-search-documents
-pypdf
 langchain-text-splitters
 streamlit

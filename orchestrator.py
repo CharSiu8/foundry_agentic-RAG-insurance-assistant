@@ -1,9 +1,7 @@
-# run_provider_finder_agent(user_query) from provider_finder_agent.py
-# run_cost_estimator_agent(user_query, plan_filter) from cost_estimator_agent.py
 # Calls router agent → gets intent (coverage, provider_search, cost_estimate, general)
-# Delegates to the matching agent
-# Includes a while loop so you can ask multiple questions
-# Cost queries chain: Coverage Agent (get %) → Cost Estimator (calculate out-of-pocket)
+# Delegates to the matching agent(s)
+# Supports multi-intent queries (e.g. "coverage,provider_search")
+# Cost queries chain: Coverage Agent (get PPO + Premier %) → Cost Estimator (calculate out-of-pocket)
 
 import os
 import re
@@ -11,6 +9,7 @@ from dotenv import load_dotenv
 from azure.ai.agents import AgentsClient
 from azure.ai.agents.models import AgentThreadCreationOptions, ThreadMessageOptions, MessageTextContent, MessageRole
 from azure.identity import DefaultAzureCredential
+from concurrent.futures import ThreadPoolExecutor
 
 # Import agent runners
 from router_agent import classify_intent
@@ -21,16 +20,38 @@ from cost_estimator_agent import run_cost_estimator_agent
 load_dotenv()
 
 AZURE_AI_PROJECT_ENDPOINT = os.getenv("AZURE_AI_PROJECT_ENDPOINT")
-ROUTER_AGENT_ID = os.getenv("ROUTER_AGENT_ID")
 
-def extract_coverage_percent(coverage_response: str) -> str:
-    """Extract coverage percentage from coverage agent response."""
-    # Look for patterns like "80%", "50 percent", "covered at 80"
-    matches = re.findall(r'(\d{1,3})\s*%', coverage_response)
-    if matches:
-        # Return the first percentage found
-        return matches[0]
-    return "0"
+
+def extract_coverage_percent(coverage_response: str) -> dict:
+    """Extract PPO and Premier coverage percentages from coverage agent response."""
+    result = {"ppo": "0", "premier": "0"}
+
+    text = coverage_response.lower()
+
+    # Try to find PPO-specific percentage
+    ppo_match = re.search(r'ppo[^0-9]*(\d{1,3})\s*%', text)
+    if ppo_match:
+        result["ppo"] = ppo_match.group(1)
+
+    # Try to find Premier-specific percentage
+    premier_match = re.search(r'premier[^0-9]*(\d{1,3})\s*%', text)
+    if premier_match:
+        result["premier"] = premier_match.group(1)
+
+    # If neither found, grab first percentage as fallback for both
+    if result["ppo"] == "0" and result["premier"] == "0":
+        fallback = re.findall(r'(\d{1,3})\s*%', coverage_response)
+        if fallback:
+            result["ppo"] = fallback[0]
+            result["premier"] = fallback[0]
+
+    # If only one found, use it for both
+    if result["ppo"] == "0" and result["premier"] != "0":
+        result["ppo"] = result["premier"]
+    elif result["premier"] == "0" and result["ppo"] != "0":
+        result["premier"] = result["ppo"]
+
+    return result
 
 def run_orchestrator(user_query: str, plan_filter: str = None):
     """Route query to the appropriate agent(s) based on intent."""
@@ -41,29 +62,50 @@ def run_orchestrator(user_query: str, plan_filter: str = None):
     print(f"Intent(s): {intents}")
 
     responses = []
+    has_coverage = any("coverage" in i for i in intents)
+    has_provider = any("provider" in i for i in intents)
+    has_cost = any("cost" in i for i in intents)
+# ---- 
+# Running coverage and provider agents in parallel if both intents are present
+    if has_coverage and has_provider:
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            coverage_future = executor.submit(run_coverage_agent, user_query, plan_filter)
+            providor_future = executor.submit(run_provider_finder_agent, user_query)
+            responses.append(coverage_future.result())
+            responses.append(providor_future.result())
 
-    if any("coverage" in i for i in intents):
-        responses.append(run_coverage_agent(user_query, plan_filter))
+    else:
+        if has_coverage:
+            responses.append(run_coverage_agent(user_query, plan_filter))
+        if has_provider:
+            responses.append(run_provider_finder_agent(user_query))
 
-    if any("provider" in i for i in intents):
-        responses.append(run_provider_finder_agent(user_query))
-
-    if any("cost" in i for i in intents):
-        # Chain: Coverage Agent → Cost Estimator
-        coverage_query = f"What is the coverage percentage for {user_query}? Reply with the specific percentage."
+    #cost chain needs to be sequential to extract coverage % first, then pass to cost estimator
+    if has_cost:
+        coverage_query = f"What is the coverage percentage for {user_query}? Provide the percentage for both Delta Dental PPO dentists and Delta Dental Premier dentists separately."
         print("  → Checking coverage first...")
         coverage_response = run_coverage_agent(coverage_query, plan_filter)
-        coverage_percent = extract_coverage_percent(coverage_response or "")
-        print(f"  → Coverage found: {coverage_percent}%")
 
-        enhanced_query = f"{user_query}\nCoverage percentage from plan: {coverage_percent}%"
-        responses.append(run_cost_estimator_agent(enhanced_query, plan_filter))
+        coverage = extract_coverage_percent(coverage_response or "")
+        print(f" → Extracted coverage: PPO {coverage['ppo']}%, Premier {coverage['premier']}%")
+
+        ppo_query = f"Calculate the out-of-pocket cost for a procedure with {coverage['ppo']}% coverage. {user_query}"
+        ppo_response = run_cost_estimator_agent(ppo_query, plan_filter)
+
+        if coverage["ppo"] != coverage["premier"]:
+            premier_query = f"{user_query}\nCoverage percentage for Delta Dental Premier dentists is: {coverage['premier']}%. Calculate the out-of-pocket cost for a procedure with this coverage."
+            premier_response = run_cost_estimator_agent(premier_query, plan_filter)
+            combined_cost = f"**With a Delta Dental PPO dentist:** {ppo_response}\n\n**With a Delta Dental Premier dentist:** {premier_response}"
+        else:
+            combined_cost = f"**Coverage is the same for PPO and Premier dentists at {coverage['ppo']}%**, so the out-of-pocket cost is: {ppo_response}"
+        
+        responses.append(combined_cost)
 
     if not responses:
         responses.append("I can help with dental coverage questions, finding providers, or estimating costs. What would you like to know?")
 
     combined = "\n\n---\n\n".join(responses)
-    print(f"\nResponse: {combined}")
+    print(f"\nResponse:\n{combined}")
     return combined
 
 # ── Entry point ───────────────────────────────────────────────────────────────

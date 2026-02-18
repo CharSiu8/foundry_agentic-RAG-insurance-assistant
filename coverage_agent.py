@@ -44,7 +44,6 @@ def search_dental_plan(
         # Build vector query
         vector_query = VectorizedQuery(
             vector=query_vector,
-            k_nearest_neighbors=3,
             fields="embedding"
         )
 

@@ -53,6 +53,17 @@ def extract_coverage_percent(coverage_response: str) -> dict:
 
     return result
 
+# query cleaner
+def make_coverage_query(user_query: str) -> str:
+    """Extract procedure keyword and build clean coverage query."""
+    procedures = ["cleaning", "crown", "root canal", "filling", "extraction", "wisdom tooth",
+                   "braces", "denture", "x-ray", "implant", "sealant", "veneer", "fluoride",
+                   "exam", "bridge", "orthodontic", "periodontic", "checkup"]
+    found = [p for p in procedures if p in user_query.lower()]
+    if found:
+        return f"What is my coverage percentage for {found[0]}? Include deductible and annual maximum."
+    return user_query
+
 def run_orchestrator(user_query: str, plan_filter: str = None):
     """Route query to the appropriate agent(s) based on intent."""
     print(f"\nUser: {user_query}")
@@ -65,18 +76,17 @@ def run_orchestrator(user_query: str, plan_filter: str = None):
     has_coverage = any("coverage" in i for i in intents)
     has_provider = any("provider" in i for i in intents)
     has_cost = any("cost" in i for i in intents)
-# ---- 
-# Running coverage and provider agents in parallel if both intents are present
+
+    # Run coverage and provider — parallel if both, otherwise individual
     if has_coverage and has_provider:
         with ThreadPoolExecutor(max_workers=2) as executor:
-            coverage_future = executor.submit(run_coverage_agent, user_query, plan_filter)
-            providor_future = executor.submit(run_provider_finder_agent, user_query)
+            coverage_future = executor.submit(run_coverage_agent, make_coverage_query(user_query), plan_filter)
+            provider_future = executor.submit(run_provider_finder_agent, user_query)
             responses.append(coverage_future.result())
-            responses.append(providor_future.result())
-
+            responses.append(provider_future.result())
     else:
         if has_coverage:
-            responses.append(run_coverage_agent(user_query, plan_filter))
+            responses.append(run_coverage_agent(make_coverage_query(user_query), plan_filter))
         if has_provider:
             responses.append(run_provider_finder_agent(user_query))
 

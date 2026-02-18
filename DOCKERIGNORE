@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+.env
+.git/
+.gitignore
+agent_testing_and_updates/
+data/
+debugging_files/
+pdfstoextract/
+ingest.py
+README.md

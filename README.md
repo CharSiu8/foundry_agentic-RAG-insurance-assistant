@@ -29,7 +29,7 @@ User → Streamlit UI → Orchestrator → Router Agent (intent classification)
 ```
 ## Orchestration
 
-hybrid orchestration pattern. If you had to pick one label, "router-based orchestration with concurrent execution and sequential chaining" is the most accurate.
+hybrid orchestration pattern: router-based orchestration with concurrent execution and sequential chaining.
 
 ### Foundry Agents
 

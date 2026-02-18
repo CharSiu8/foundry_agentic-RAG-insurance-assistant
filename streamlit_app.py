@@ -57,6 +57,7 @@ st.markdown("""
 with st.sidebar:
     st.markdown("## 🦷 Delta Dental (Unofficial)")
     st.markdown("**AI Insurance Assistant**")
+    st.markdown("**Delta Dental Michigan Plans**")
     st.markdown("---")
 
     plan_options = {

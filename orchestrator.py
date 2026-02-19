@@ -82,6 +82,11 @@ def make_coverage_query(user_query: str) -> str:
             return f"What is the coverage percentage for {category}? Include deductible and annual maximum."
     return user_query
 
+def is_comparison_query(query: str) -> bool:
+    keywords = ["difference", "compare", "vs", "versus", "between"]
+    q = query.lower()
+    return any(k in q for k in keywords)
+
 def run_orchestrator(user_query: str, plan_filter: str = None):
     """Route query to the appropriate agent(s) based on intent."""
     print(f"\nUser: {user_query}")
@@ -96,6 +101,7 @@ def run_orchestrator(user_query: str, plan_filter: str = None):
     has_cost = any("cost" in i for i in intents)
 
     # Run coverage and provider — parallel if both, otherwise individual
+    # Replace lines 99-109 with:
     if has_coverage and has_provider:
         with ThreadPoolExecutor(max_workers=2) as executor:
             coverage_future = executor.submit(run_coverage_agent, make_coverage_query(user_query), plan_filter)
@@ -104,7 +110,12 @@ def run_orchestrator(user_query: str, plan_filter: str = None):
             responses.append(provider_future.result())
     else:
         if has_coverage:
-            responses.append(run_coverage_agent(make_coverage_query(user_query), plan_filter))
+            if is_comparison_query(user_query):
+                base_resp = run_coverage_agent(user_query, "baseplan.pdf")
+                premium_resp = run_coverage_agent(user_query, "premiumplan.pdf")
+                responses.append(f"**Base Plan:**\n{base_resp}\n\n**Premium Plan:**\n{premium_resp}")
+            else:
+                responses.append(run_coverage_agent(make_coverage_query(user_query), plan_filter))
         if has_provider:
             responses.append(run_provider_finder_agent(user_query))
 
